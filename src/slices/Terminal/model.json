@@ -1,0 +1,33 @@
+{
+  "id": "terminal",
+  "type": "SharedSlice",
+  "name": "Terminal",
+  "description": "Terminal",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": "Terminal"
+          }
+        },
+        "text": {
+          "type": "Text",
+          "config": {
+            "label": "text",
+            "placeholder": "jeremiec:devprojects$"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

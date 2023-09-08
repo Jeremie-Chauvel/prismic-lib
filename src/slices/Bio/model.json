@@ -1,0 +1,74 @@
+{
+  "id": "bio",
+  "type": "SharedSlice",
+  "name": "Bio",
+  "description": "Bio",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "John is a software engineer with over 10 years of experience.",
+            "allowTargetBlank": false,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "picture": {
+          "type": "Image",
+          "config": {
+            "label": "picture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "twitter": {
+          "type": "Link",
+          "config": {
+            "label": "twitter",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "github": {
+          "type": "Link",
+          "config": {
+            "label": "github",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "linkedin": {
+          "type": "Link",
+          "config": {
+            "label": "linkedin",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "name",
+            "placeholder": "John Doe"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": "Software engineer"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

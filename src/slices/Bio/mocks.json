@@ -1,0 +1,77 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "John is a software engineer with over 10 years of experience in developing web and mobile applications. He is skilled in JavaScript, React, and Node.js.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"picture": {
+				"origin": {
+					"id": "Nl7eLS8E2Ss",
+					"url": "https://images.unsplash.com/photo-1552914953-938eef0ce926?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZnJ1aXR8ZW58MHx8fHwxNjkzNTU3NTQzfDA&ixlib=rb-4.0.3&q=85",
+					"width": 3450,
+					"height": 3456
+				},
+				"url": "https://images.unsplash.com/photo-1552914953-938eef0ce926?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZnJ1aXR8ZW58MHx8fHwxNjkzNTU3NTQzfDA&ixlib=rb-4.0.3&q=85",
+				"width": 3450,
+				"height": 3456,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": "half sliced green lemon facing us",
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"linkedin": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "linkedin.com"
+				}
+			},
+			"twitter": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "twitter.com",
+					"target": ""
+				}
+			},
+			"github": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "github.com"
+				}
+			},
+			"name": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "John Doe"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Software Engineer"
+			}
+		},
+		"items": []
+	}
+]
